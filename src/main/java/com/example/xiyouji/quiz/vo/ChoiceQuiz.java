@@ -25,7 +25,7 @@ public class ChoiceQuiz extends Quiz {
     public QuizDto.QuizResponseDto toQuizResponse() {
         return QuizDto.QuizResponseDto.builder()
                 .quizContent(getQuizContent())
-                .result(answer)
+                 .result(answer)
                 .characterType(getCharacterType().getValue_kr())
                 .build();
     }
